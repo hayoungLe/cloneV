@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vhome모작</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="commomd.js" defer></script>
+  <script src="jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!--top으로 올라가는 버튼-->
+  <section class="top-btn" style="cursor:pointer;" onclick="window.scrollTo(0,0);">
+    <span>TOP</span>
+  </section>
+
+  <section class="header-nav-2st-fixed">
+    <div>
+      <a href="#">
+        <span><i class="fa-regular fa-user"></i></span>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <span><i class="fa-solid fa-bag-shopping"></i></span>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <span><i class="fa-regular fa-rectangle-list"></i></span>
+      </a>
+    </div>
+    <div>
+      <a href="#">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+      </a>
+    </div>
+  </section>
+
+  <header>
+    <div class="header-login">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="https://www.vhom.co.kr/images/common/comm_bic_notice.png" alt="">
+          </a>
+        </li>
+        <li>|</li>
+        <li class="header-login-txt">
+          <a href="#"> <span>로그인</span></a>
+        </li>
+        <li>|</li>
+        <li>
+          <a href="#"> <span>회원가입</span></a>
+        </li>
+        <li>|</li>
+        <li>
+          <a href="#"> <span>고객센터</span></a>
+        </li>
+      </ul>
+    </div>
+    <nav class="header-nav-1st">
+      <div class="header-logo">
+        <a href="#">
+          <img src="https://www.vhom.co.kr/images/common/comm_header_logo.png" alt="">
+        </a>
+        <span>한솔이 만든 토탈인테리어</span>
+      </div>
+      <ul class="header-center">
+        <li>
+          <a href="#">
+            <span>리모델링 패키지</span>
+          </a>
+
+          <div class="header-cente__2nd">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>트렌디 화이트</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>트렌디 내추럴</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>서비스 안내</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </li>
+        <li>
+          <a href="#">
+            <span>시공갤러리</span>
+          </a>
+          <div class="header-cente__2nd">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>성공 사례</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>스타일 갤러리</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">
+            <span>스토어</span>
+          </a>
+          <div class="header-cente__2nd">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>전체상품</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>조명</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>인테리어 시공</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a href="#">
+            <span>이벤트</span>
+            <div class="header-cente__2nd">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>이벤트</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>당첨자 발표</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>쇼룸안내</span>
+          </a>
+        </li>
+        <li class="header-center__img-box">
+          <a href="#">
+            <span><img src="https://www.vhom.co.kr/images/temp/@temp__gnb-lottie.png" alt=""></span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="header-icon">
+        <li>
+          <a href="#">
+            <span><i class="fa-regular fa-user"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><i class="fa-solid fa-bag-shopping"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><i class="fa-regular fa-rectangle-list"></i></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="header-nav-2st">
+      <div class="header-logo">
+        <a href="#">
+          <img src="https://www.vhom.co.kr/images/common/comm_header_logo.png" alt="">
+        </a>
+      </div>
+      <ul class="header-center">
+        <li>
+          <a href="#">
+            <span>리모델링 패키지</span>
+          </a>
+
+          <div class="header-cente__2nd">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>트렌디 화이트</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>트렌디 내추럴</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>서비스 안내</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </li>
+        <li>
+          <a href="#">
+            <span>시공갤러리</span>
+          </a>
+          <div class="header-cente__2nd">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>성공 사례</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>스타일 갤러리</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#">
+            <span>스토어</span>
+          </a>
+          <div class="header-cente__2nd">
+            <ul>
+              <li>
+                <a href="#">
+                  <span>전체상품</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>조명</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>인테리어 시공</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a href="#">
+            <span>이벤트</span>
+            <div class="header-cente__2nd">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>이벤트</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>당첨자 발표</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>쇼룸안내</span>
+          </a>
+        </li>
+        <li class="header-center__img-box">
+          <a href="#">
+            <span><img src="https://www.vhom.co.kr/images/temp/@temp__gnb-lottie.png" alt=""></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="video-banner">
+    <div>
+      <video autoplay muted loop
+        src="https://video.vhom.kr/contents/Horizontal/PC_VHOM(main)_subtitles_v2_20230117120438/MP4/PC_VHOM(main)_subtitles_v2_20230117120438.mp4"></video>
+    </div>
+    <div class="scrl">
+      <p>Scroll Down</p>
+      <p class="scrl-dwn-move"><i class="fa-solid fa-chevron-down"></i></p>
+    </div>
+  </section>
+
+  <section class="stlye-list">
+    <h1>리모델링 상품 <span></span> </h1>
+    <p>최고의 공간 디자이너들이 매년 3만 건의 인테리어 빅데이터를 분석하여 가장 트렌디한 디자인을 제안합니다.</p>
+
+    <ul class="stlye-list__1st">
+
+      <li class="stlye-list__left">
+        <img
+          src="https://uimg.vhom.kr/storage/dp/dpContImgFile/%EC%8B%AC%ED%94%8C%EB%AA%A8%EB%8D%98_%EC%8A%A4%ED%81%AC%EB%A1%A42_20230102104721.jpg"
+          alt="">
+        <p><img src="https://resources.vhom.kr/hshd-pc/images/main/vhom__tab-item--active.png" alt=""></p>
+        <h1>트렌디 화이트</h1>
+        <p class="bold-darkgreen-text">평당 가격 110만원대</p>
+        <p>기본에 충실한 깨끗함과 도시적인 모던함을 추구하는 스타일</p>
+        <div>
+          <a href="#"><span>상세보기</span></a>
+          <a href="#"><button>이 스타일로 견적보기</button></a>
+        </div>
+      </li>
+
+
+      <li class="stlye-list__right">
+        <img
+          src="https://uimg.vhom.kr/storage/dp/dpContImgFile/%EC%8B%AC%ED%94%8C%EB%82%B4%EC%B6%94%EB%9F%B4_%EC%8A%A4%ED%81%AC%EB%A1%A41_20230102104930.jpg"
+          alt="">
+        <p><img src="https://resources.vhom.kr/hshd-pc/images/main/vhom__tab-item.png" alt=""></p>
+        <h1>트렌디 내추럴</h1>
+        <p class="bold-text">평당 가격 110만원대</p>
+        <p>기본에 충실한 깨끗함과 도시적인 모던함을 추구하는 스타일</p>
+        <div>
+          <span>상세보기</span>
+          <button>이 스타일로 견적보기</button>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="stlye-list__2nd">
+      <li class="stlye-list__left">
+        <img
+          src="https://uimg.vhom.kr/storage/dp/dpContImgFile/%EC%8B%AC%ED%94%8C%EB%AA%A8%EB%8D%98_%EC%8A%A4%ED%81%AC%EB%A1%A42_20230102104721.jpg"
+          alt="">
+        <p><img src="https://resources.vhom.kr/hshd-pc/images/main/vhom__tab-item.png" alt=""></p>
+        <h1>트렌디 화이트</h1>
+        <p class="bold-text">평당 가격 110만원대</p>
+        <p>기본에 충실한 깨끗함과 도시적인 모던함을 추구하는 스타일</p>
+        <div>
+          <span>상세보기</span>
+          <button>이 스타일로 견적보기</button>
+        </div>
+      </li>
+
+
+      <li class="stlye-list__right">
+        <img
+          src="https://uimg.vhom.kr/storage/dp/dpContImgFile/%EC%8B%AC%ED%94%8C%EB%82%B4%EC%B6%94%EB%9F%B4_%EC%8A%A4%ED%81%AC%EB%A1%A41_20230102104930.jpg"
+          alt="">
+        <p><img src="https://resources.vhom.kr/hshd-pc/images/main/vhom__tab-item--active.png" alt=""></p>
+        <h1>트렌디 내추럴</h1>
+        <p class="bold-darkgreen-text">평당 가격 110만원대</p>
+        <p>기본에 충실한 깨끗함과 도시적인 모던함을 추구하는 스타일</p>
+        <div>
+          <a href="#"><span>상세보기</span></a>
+          <a href="#"><button>이 스타일로 견적보기</button></a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="review-list">
+
+    <div>
+      <div>
+        <span>
+          <img src="https://www.vhom.co.kr/images/common/comm_header_logo.png" alt="">
+        </span>
+        <span>
+          으로 시공한 후기
+        </span>
+      </div>
+      <div class="review-list__all">
+        <a href="#"><span>전체보기 ></span></a>
+      </div>
+    </div>
+
+    <ul>
+      <li>
+        <a href="">
+          <div>
+            <img
+              src="https://uimg.vhom.kr/storage/dp/dpContImgFile/%EB%A9%B4%EB%AA%A9%EB%8A%98%ED%91%B8%EB%A5%B8_Thumbnail_20230203125012.jpg"
+              alt="">
+          </div>
+          <h3>서울시 면목늘푸른동아아파트 44평</h3>
+          <p>시공비용 : 5,100만원</p>
+          <p class="review-list-detail"><span>트렌디 화이트</span><span>144.85㎡</span><span>시공기간 4주</span></p>
+        </a>
+      </li>
+      <li class="review-list__ctr">
+        <a href="">
+          <div>
+            <img
+              src="https://uimg.vhom.kr/storage/dp/dpContImgFile/%EA%B0%84%EC%84%9D%EB%9E%98%EB%AF%B8%EC%95%88_Thumbnail_20230104174235.jpg"
+              alt="">
+          </div>
+          <h3>인천시 간석래미안자이아파트 34평</h3>
+          <p>시공비용 : 5,350만원</p>
+          <p class="review-list-detail"><span>트렌디 화이트</span><span>112.56㎡</span><span>시공기간 4주</span></p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div>
+            <img
+              src="https://uimg.vhom.kr/storage/dp/dpContImgFile/%EC%82%BC%EC%84%B1%ED%95%9C%EC%95%84%EB%A6%84%EB%AA%A9%EB%A1%9D_20221230134351.jpg"
+              alt="">
+          </div>
+          <h3>서울시 강서구 삼성한아름아파트 32평</h3>
+          <p>시공비용 : 2,978만원</p>
+          <p class="review-list-detail"><span>트렌디 화이트</span><span>105.06㎡</span><span>시공기간 4주</span></p>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="special-list">
+    <h1>Special <span></span> </h1>
+    <p>VHOM은 이래서 특별합니다.</p>
+
+    <ul class="special-list-top">
+      <li class="special-list-left">
+        <div class="special-list-txt-con">
+          <p class="special-list-txt">VHOM은
+            <span>혁신적입니다</span>
+          </p>
+          <p class="special-list-txt-invisible">유통파괴로 <span>혁신적 가격</span>에 제공합니다.</p>
+          <p>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="12" width="2" height="16" rx="1" fill="#999999" />
+              <rect x="12" y="21" width="2" height="16" rx="1" transform="rotate(-90 12 21)" fill="#999999" />
+              <circle cx="20" cy="20" r="19" stroke="#999999" stroke-width="2" />
+            </svg>
+          </p>
+        </div>
+        <div class="special-list-img">
+          <img src="https://www.vhom.co.kr/images/main/vhom__special-image0.png" alt="">
+        </div>
+      </li>
+      <li class="special-list-right">
+        <div class="special-list-txt-con">
+          <p class="special-list-txt">VHOM은
+            <span>스마트합니다</span>
+          </p>
+          <p class="special-list-txt-invisible">AI기술로<span> 정확한 견적</span>을 제공합니다.</p>
+          <p>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="12" width="2" height="16" rx="1" fill="#999999" />
+              <rect x="12" y="21" width="2" height="16" rx="1" transform="rotate(-90 12 21)" fill="#999999" />
+              <circle cx="20" cy="20" r="19" stroke="#999999" stroke-width="2" />
+            </svg>
+          </p>
+        </div>
+        <div class="special-list-img">
+          <img src="https://www.vhom.co.kr/images/main/vhom__special-image1.png" alt="">
+        </div>
+      </li>
+    </ul>
+
+
+
+    <ul class="special-list-bottom">
+      <li class="special-list-left">
+        <div class="special-list-txt-con">
+          <p class="special-list-txt">VHOM은
+            <span>누구나 할 수 있습니다</span>
+          </p>
+          <p class="special-list-txt-invisible">엄선된 최고의<span>패키지 디자인</span>을 제공합니다. </p>
+          <p>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="12" width="2" height="16" rx="1" fill="#999999" />
+              <rect x="12" y="21" width="2" height="16" rx="1" transform="rotate(-90 12 21)" fill="#999999" />
+              <circle cx="20" cy="20" r="19" stroke="#999999" stroke-width="2" />
+            </svg>
+          </p>
+        </div>
+        <div class="special-list-img">
+          <img src="https://www.vhom.co.kr/images/main/vhom__special-image2.png" alt="">
+        </div>
+      </li>
+      <li class="special-list-right">
+        <div class="special-list-txt-con">
+          <p class="special-list-txt">VHOM은
+            <span>믿을 수 있습니다</span>
+          </p>
+          <p class="special-list-txt-invisible"><span>처음부터 끝까지</span> VHOM이 제공합니다.</p>
+          <p>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="12" width="2" height="16" rx="1" fill="#999999" />
+              <rect x="12" y="21" width="2" height="16" rx="1" transform="rotate(-90 12 21)" fill="#999999" />
+              <circle cx="20" cy="20" r="19" stroke="#999999" stroke-width="2" />
+            </svg>
+          </p>
+        </div>
+        <div class="special-list-img">
+          <img src="https://www.vhom.co.kr/images/main/vhom__special-image3.png" alt="">
+        </div>
+      </li>
+    </ul>
+
+
+  </section>
+
+  <section class="customer-said">
+    <div>
+      <div>
+        <span>
+          <img src="https://www.vhom.co.kr/images/common/comm_header_logo.png" alt="">
+        </span>
+        <span>
+          으로 시공한 후기
+        </span>
+      </div>
+      <div class="customer-said__all">
+        <a href="#"><span>전체보기 ></span></a>
+      </div>
+    </div>
+
+    <ul class="customer-said-top">
+      <li class="customer-said-top__left">
+        <a href="#">
+          <div class="customer-said__txt">
+            <p class="customer-said__txt__name">김*현 고객님</p>
+            <p>맞벌이 부부처럼 시간 내기 어려운</p>
+            <p>분들께 적극 추천해요!</p>
+            <p class="customer-said__txt__add">서울시 중랑구 면목늘푸른동아아파트</p>
+            <p class="customer-said__txt__date">23년 1월 시공</p>
+          </div>
+          <div class="customer-said__img">
+            <div>
+              <img src="https://www.vhom.co.kr/images/temp/@temp__profile-image2.jpg" alt="">
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="customer-said-top__right">
+        <a href="#">
+          <div class="customer-said__txt">
+            <p class="customer-said__txt__name">이*령 고객님</p>
+            <p>트랜디화이트 패키지가 가족이 원하는</p>
+            <p>기본에 충실한 디자인이었어요.</p>
+            <p class="customer-said__txt__add">인천시 남동구 간석래미안자이</p>
+            <p class="customer-said__txt__date">22년 11월 시공</p>
+          </div>
+          <div class="customer-said__img">
+            <div>
+              <img src="https://www.vhom.co.kr/images/temp/@temp__profile-image3.jpg" alt="">
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+
+    <ul class="customer-said-bottom">
+      <li class="customer-said-top__left">
+        <a href="#">
+          <div class="customer-said__txt">
+            <p class="customer-said__txt__name">한*원 고객님</p>
+            <p>Simple is the best 라는 말처럼</p>
+            <p>항상 깨끗하고 심플한 느낌의 집을...</p>
+            <p class="customer-said__txt__add">서울시 영등포구 공작 아파트</p>
+            <p class="customer-said__txt__date">21년 09월 시공</p>
+          </div>
+          <div class="customer-said__img">
+            <div>
+              <img src="https://www.vhom.co.kr/images/temp/@temp__profile-image0.jpg" alt="">
+            </div>
+          </div>
+        </a>
+      </li>
+      <li class="customer-said-top__right">
+        <a href="#">
+          <div class="customer-said__txt">
+            <p class="customer-said__txt__name">권*은 고객님</p>
+            <p>칙칙했던 집에 봄이 왔어요~</p>
+            <p>컬러 선택에 고민이 많았는데 잘한...</p>
+            <p class="customer-said__txt__add">서울시 노원구 화랑타운 아파트</p>
+            <p class="customer-said__txt__date">22년 01월 시공</p>
+          </div>
+          <div class="customer-said__img">
+            <div>
+              <img src="https://www.vhom.co.kr/images/temp/@temp__profile-image1.jpg" alt="">
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+  </section>
+
+  <section class="receive-price">
+    <span>VHOM 견적받기 <span> 10초면</span> 충분해요!</span>
+    <button>지금 바로 견적받기</button>
+  </section>
+
+  <section class="remodeling-process">
+    <ul>
+      <li class="remodel-pro__1st">
+        <div>
+          <h1>리모델링</h1>
+          <h1>진행과정</h1>
+          <div class="remodel-pro__1st-p">
+            <p>인테리어 준비부터 시공까지</p>
+            <p>모든 과정을 온라인으로</p>
+            <p>진행할 수 있습니다.</p>
+          </div>
+        </div>
+      </li>
+      <li class="slideinleft">
+        <div>
+          <svg width="140" height="232" viewBox="0 0 140 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M66.7714 160.635L23.8242 184.956V169.026L66.7714 144.812V160.635Z" fill="white" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M66.7734 160.635L116.175 188.447V172.935L66.7734 144.812V160.635Z" fill="white" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M116.173 188.447L73.4326 213.17L23.8242 184.957L66.7714 160.636L116.173 188.447Z" fill="white"
+              stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M65.3574 164.88L61.775 162.331L37.5156 176.557V192.478L61.6099 178.261L65.3574 180.293V164.88Z"
+              fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M90.2292 174.026L70.4023 185.244V169.322L90.2292 158.194V174.026Z" fill="white" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M71.6155 194.815L56.3203 203.673V187.751L71.6155 178.991V194.815Z" fill="white" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M71.6172 194.815L88.6706 204.148V188.636L71.6172 178.991V194.815Z" fill="white" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M77 122.383C77 116.002 71.8508 110.829 65.5 110.829C59.1492 110.829 54 116.002 54 122.383C54 127.725 57.6106 132.205 62.5127 133.53L65.5 137.829L68.4873 133.53C73.3894 132.205 77 127.725 77 122.383Z"
+              fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M64.2484 128.823H64.2321C63.9333 128.823 63.6563 128.681 63.4553 128.439L59.2724 123.361C58.8813 122.888 58.9139 122.154 59.3539 121.728C59.7885 121.302 60.4621 121.338 60.8532 121.817L64.2647 125.959L70.1642 119.19C70.5661 118.728 71.2398 118.705 71.6689 119.148C72.0926 119.586 72.1144 120.32 71.7069 120.787L65.0143 128.468C64.8133 128.699 64.5363 128.829 64.243 128.829L64.2484 128.823Z"
+              fill="#666666" />
+            <path
+              d="M9.75391 9.89258H12.8477C12.8047 7.14258 10.5381 5.23047 7.08984 5.23047C3.68457 5.23047 1.19238 7.11035 1.20312 9.93555C1.20312 12.2129 2.81445 13.5234 5.43555 14.168L7.13281 14.5762C8.83008 14.9951 9.79688 15.4893 9.79688 16.5527C9.79688 17.7129 8.70117 18.5078 7.00391 18.5078C5.28516 18.5078 4.03906 17.7129 3.93164 16.1445H0.794922C0.891602 19.4854 3.28711 21.2256 7.04688 21.2148C10.8389 21.2256 13.0518 19.3994 13.0625 16.5527C13.0518 13.9639 11.0645 12.6104 8.40039 11.998L7.00391 11.6543C5.66113 11.3535 4.50098 10.8486 4.51172 9.7207C4.52246 8.68945 5.43555 7.9375 7.06836 7.9375C8.64746 7.9375 9.625 8.65723 9.75391 9.89258ZM14.4564 8.10938H19.2259V21H22.4271V8.10938H27.1966V5.44531H14.4564V8.10938ZM29.0847 21H39.5476V18.3359H32.3073V14.5547H38.989V11.8906H32.3073V8.10938H39.5261V5.44531H29.0847V21ZM41.9298 21H45.1524V15.9297H47.9454C51.5333 15.9297 53.5958 13.792 53.5958 10.6875C53.5958 7.62598 51.5655 5.44531 48.0313 5.44531H41.9298V21ZM45.1524 13.3301V8.08789H47.4298C49.3419 8.09863 50.2764 9.14062 50.2657 10.6875C50.2764 12.2559 49.3419 13.3301 47.4298 13.3301H45.1524ZM66.4383 21.2148C70.327 21.2148 72.6902 18.3359 72.6902 13.2227C72.6902 8.1416 70.3162 5.23047 66.4383 5.23047C62.5604 5.23047 60.1863 8.1416 60.1863 13.2227C60.1863 18.3145 62.5389 21.2148 66.4383 21.2148ZM63.4949 13.2227C63.4949 9.66699 64.6443 7.88379 66.4383 7.87305C68.2322 7.88379 69.3924 9.66699 69.3816 13.2227C69.3924 16.8105 68.243 18.5508 66.4383 18.5508C64.6336 18.5508 63.4734 16.8105 63.4949 13.2227ZM81.5177 5.44531H78.4669L74.6212 7.89453V10.752L78.1877 8.51758H78.2736V21H81.5177V5.44531Z"
+              fill="#333333" />
+          </svg>
+          <div class="remodeling-process-p">
+            <p>리모델링 스타일 선택</p>
+          </div>
+        </div>
+      </li>
+      <li class="slideinleft">
+        <div>
+          <svg width="140" height="232" viewBox="0 0 140 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M94.2098 124.489H33.5898V203.549H94.2098V124.489Z" fill="white" stroke="#666666" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M81.4681 120.45H46.3281V128.52H81.4681V120.45Z" fill="white" stroke="#666666" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M49.8322 185.47H41.7422V193.56H49.8322V185.47Z" fill="white" stroke="#666666" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M56.6719 186.479H84.0819" stroke="#666666" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path d="M56.6719 191.819H75.1119" stroke="#666666" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path
+              d="M94.1792 195.121C100.934 195.121 106.409 189.646 106.409 182.891C106.409 176.137 100.934 170.661 94.1792 170.661C87.4248 170.661 81.9492 176.137 81.9492 182.891C81.9492 189.646 87.4248 195.121 94.1792 195.121Z"
+              fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M63.9012 157.04L46.2812 167.2V146.87L63.9012 136.71V157.04Z" fill="white" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M63.9023 157.04L81.5223 167.2V146.87L63.9023 136.71V157.04Z" fill="white" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M81.5213 167.2L63.9012 177.29L46.2812 167.2L63.9012 157.04L81.5213 167.2Z" fill="white"
+              stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M88.4297 178.671L91.3197 187.111L94.1997 178.671L97.0497 187.111L99.9297 178.671" fill="white" />
+            <path d="M88.4297 178.671L91.3197 187.111L94.1997 178.671L97.0497 187.111L99.9297 178.671" stroke="#666666"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M9.75391 9.89258H12.8477C12.8047 7.14258 10.5381 5.23047 7.08984 5.23047C3.68457 5.23047 1.19238 7.11035 1.20312 9.93555C1.20312 12.2129 2.81445 13.5234 5.43555 14.168L7.13281 14.5762C8.83008 14.9951 9.79688 15.4893 9.79688 16.5527C9.79688 17.7129 8.70117 18.5078 7.00391 18.5078C5.28516 18.5078 4.03906 17.7129 3.93164 16.1445H0.794922C0.891602 19.4854 3.28711 21.2256 7.04688 21.2148C10.8389 21.2256 13.0518 19.3994 13.0625 16.5527C13.0518 13.9639 11.0645 12.6104 8.40039 11.998L7.00391 11.6543C5.66113 11.3535 4.50098 10.8486 4.51172 9.7207C4.52246 8.68945 5.43555 7.9375 7.06836 7.9375C8.64746 7.9375 9.625 8.65723 9.75391 9.89258ZM14.4564 8.10938H19.2259V21H22.4271V8.10938H27.1966V5.44531H14.4564V8.10938ZM29.0847 21H39.5476V18.3359H32.3073V14.5547H38.989V11.8906H32.3073V8.10938H39.5261V5.44531H29.0847V21ZM41.9298 21H45.1524V15.9297H47.9454C51.5333 15.9297 53.5958 13.792 53.5958 10.6875C53.5958 7.62598 51.5655 5.44531 48.0313 5.44531H41.9298V21ZM45.1524 13.3301V8.08789H47.4298C49.3419 8.09863 50.2764 9.14062 50.2657 10.6875C50.2764 12.2559 49.3419 13.3301 47.4298 13.3301H45.1524ZM66.4383 21.2148C70.327 21.2148 72.6902 18.3359 72.6902 13.2227C72.6902 8.1416 70.3162 5.23047 66.4383 5.23047C62.5604 5.23047 60.1863 8.1416 60.1863 13.2227C60.1863 18.3145 62.5389 21.2148 66.4383 21.2148ZM63.4949 13.2227C63.4949 9.66699 64.6443 7.88379 66.4383 7.87305C68.2322 7.88379 69.3924 9.66699 69.3816 13.2227C69.3924 16.8105 68.243 18.5508 66.4383 18.5508C64.6336 18.5508 63.4734 16.8105 63.4949 13.2227ZM74.8146 21H85.9435V18.3359H79.3048V18.25L81.6681 15.9512C84.8693 13.0508 85.7287 11.6006 85.7287 9.82812C85.7287 7.13184 83.5158 5.23047 80.1857 5.23047C76.9093 5.23047 74.6535 7.1748 74.6642 10.2148H77.7365C77.7257 8.72168 78.6818 7.79785 80.1427 7.80859C81.5714 7.79785 82.6134 8.65723 82.6134 10.043C82.6134 11.2783 81.8293 12.1377 80.3791 13.5234L74.7931 18.6582L74.8146 21Z"
+              fill="#333333" />
+          </svg>
+          <div class="remodeling-process-p-2line">
+            <p>3D홈스타일링 REAL 견적진행</p>
+            <p>무료실측상담 요청</p>
+          </div>
+        </div>
+      </li>
+      <li class="remodel-pro__last slideinleft">
+        <div>
+          <svg width="140" height="232" viewBox="0 0 140 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M74.1069 127.23L63.5781 137.759L82.0053 156.186L92.5341 145.657L74.1069 127.23Z" fill="white"
+              stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M51.4631 135.581H53.6331C69.9231 135.581 83.1431 148.801 83.1431 165.091V196.771H51.4631C35.1731 196.771 21.9531 183.551 21.9531 167.261V165.091C21.9531 148.811 35.1731 135.581 51.4631 135.581Z"
+              fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M65.0328 178.664C71.9295 171.768 71.9295 160.586 65.0328 153.689C58.1362 146.793 46.9545 146.793 40.0578 153.689C33.1612 160.586 33.1612 171.768 40.0578 178.664C46.9545 185.561 58.1362 185.561 65.0328 178.664Z"
+              fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M64.8547 166.182C64.8547 159.392 59.3447 153.882 52.5547 153.882Z" fill="white" />
+            <path d="M64.8547 166.182C64.8547 159.392 59.3447 153.882 52.5547 153.882" stroke="#666666" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M83.1406 192.762H118.051V181.362" stroke="#666666" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path
+              d="M9.75391 9.89258C9.68945 9.27669 9.4209 8.79688 8.94824 8.45312C8.48275 8.10938 7.85612 7.9375 7.06836 7.9375C6.53125 7.9375 6.06934 8.01628 5.68262 8.17383C5.30306 8.32422 5.01302 8.53548 4.8125 8.80762C4.61198 9.07975 4.51172 9.3877 4.51172 9.73145C4.51172 10.2471 4.73372 10.6553 5.17773 10.9561C5.62891 11.2497 6.23763 11.4824 7.00391 11.6543L8.40039 11.998C9.83984 12.3275 10.9749 12.8646 11.8057 13.6094C12.6364 14.347 13.0553 15.3281 13.0625 16.5527C13.0625 17.498 12.8226 18.3216 12.3428 19.0234C11.863 19.7253 11.1719 20.266 10.2695 20.6455C9.36719 21.0251 8.29297 21.2148 7.04688 21.2148C5.78646 21.222 4.69434 21.0322 3.77051 20.6455C2.84668 20.2588 2.12695 19.6859 1.61133 18.9268C1.0957 18.1676 0.823568 17.2402 0.794922 16.1445H3.93164C3.98177 16.9108 4.28255 17.498 4.83398 17.9062C5.39258 18.3073 6.11589 18.5078 7.00391 18.5078C7.5625 18.5078 8.05306 18.4255 8.47559 18.2607C8.89811 18.096 9.22396 17.8669 9.45312 17.5732C9.68229 17.2796 9.79688 16.9395 9.79688 16.5527C9.79688 16.0514 9.57845 15.654 9.1416 15.3604C8.71191 15.0596 8.04232 14.7982 7.13281 14.5762L5.43555 14.168C2.61393 13.4733 1.20312 12.0625 1.20312 9.93555C1.20312 9.01172 1.45378 8.19531 1.95508 7.48633C2.46354 6.77018 3.16178 6.21517 4.0498 5.82129C4.94499 5.42741 5.95833 5.23047 7.08984 5.23047C8.22135 5.23047 9.22038 5.42741 10.0869 5.82129C10.9535 6.21517 11.6266 6.7666 12.1064 7.47559C12.5863 8.17741 12.8333 8.98307 12.8477 9.89258H9.75391ZM14.4564 5.44531H27.1966V8.10938H22.4271V21H19.2259V8.10938H14.4564V5.44531ZM29.0847 5.44531H39.5261V8.10938H32.3073V11.8906H38.989V14.5547H32.3073V18.3359H39.5476V21H29.0847V5.44531ZM41.9298 5.44531H48.0313C49.1843 5.44531 50.1798 5.66732 51.0177 6.11133C51.8555 6.55534 52.4929 7.1748 52.9298 7.96973C53.3738 8.75749 53.5958 9.66341 53.5958 10.6875C53.5958 11.7259 53.3702 12.6426 52.919 13.4375C52.475 14.2253 51.8269 14.8376 50.9747 15.2744C50.1296 15.7113 49.1199 15.9297 47.9454 15.9297H45.1524V21H41.9298V5.44531ZM47.4298 13.3301C48.3608 13.3301 49.0662 13.0938 49.546 12.6211C50.033 12.1413 50.2729 11.4967 50.2657 10.6875C50.2729 9.89258 50.033 9.26237 49.546 8.79688C49.0662 8.33138 48.3608 8.09505 47.4298 8.08789H45.1524V13.3301H47.4298ZM66.4383 21.2148C65.1421 21.2148 64.0249 20.9033 63.0867 20.2803C62.1486 19.6501 61.4288 18.737 60.9275 17.541C60.4334 16.3451 60.1863 14.9056 60.1863 13.2227C60.1863 11.5469 60.437 10.111 60.9383 8.91504C61.4396 7.71191 62.1593 6.79883 63.0975 6.17578C64.0356 5.54557 65.1492 5.23047 66.4383 5.23047C67.7273 5.23047 68.841 5.54557 69.7791 6.17578C70.7173 6.79883 71.437 7.71191 71.9383 8.91504C72.4396 10.111 72.6902 11.5469 72.6902 13.2227C72.6902 14.9128 72.4396 16.3558 71.9383 17.5518C71.437 18.7477 70.7173 19.6572 69.7791 20.2803C68.8481 20.9033 67.7345 21.2148 66.4383 21.2148ZM63.4949 13.3193C63.4949 15.0381 63.7563 16.3415 64.2791 17.2295C64.8019 18.1104 65.5216 18.5508 66.4383 18.5508C67.3621 18.5508 68.0854 18.1032 68.6082 17.208C69.131 16.3057 69.3888 14.9772 69.3816 13.2227C69.3816 12.0625 69.2635 11.085 69.0271 10.29C68.7908 9.48796 68.4507 8.88639 68.0066 8.48535C67.5626 8.08431 67.0398 7.88021 66.4383 7.87305C65.5145 7.88021 64.7911 8.3457 64.2684 9.26953C63.7527 10.1934 63.4949 11.5433 63.4949 13.3193ZM80.5724 21.2148C79.4481 21.2148 78.4383 21.0215 77.5431 20.6348C76.6551 20.248 75.9533 19.7074 75.4377 19.0127C74.9292 18.3109 74.6642 17.5124 74.6427 16.6172H77.9084C77.9227 16.9967 78.048 17.3333 78.2843 17.627C78.5207 17.9134 78.8393 18.139 79.2404 18.3037C79.6414 18.4684 80.0926 18.5508 80.5939 18.5508C81.1024 18.5508 81.5571 18.4613 81.9582 18.2822C82.3664 18.096 82.6815 17.8454 82.9035 17.5303C83.1255 17.208 83.2365 16.8392 83.2365 16.4238C83.2365 16.0013 83.1183 15.6289 82.882 15.3066C82.6457 14.9772 82.3055 14.7194 81.8615 14.5332C81.4175 14.347 80.8947 14.2539 80.2931 14.2539H78.8537V11.8691H80.2931C80.8016 11.8691 81.2528 11.7832 81.6466 11.6113C82.0405 11.4395 82.3449 11.196 82.5597 10.8809C82.7817 10.5658 82.8927 10.2077 82.8927 9.80664C82.8927 9.41276 82.7996 9.06543 82.6134 8.76465C82.4272 8.46387 82.1623 8.23112 81.8185 8.06641C81.4819 7.89453 81.088 7.80859 80.6369 7.80859C80.1785 7.80859 79.756 7.89095 79.3693 8.05566C78.9826 8.21322 78.6711 8.4388 78.4347 8.73242C78.1984 9.02604 78.0731 9.36979 78.0587 9.76367H74.965C74.9793 8.88997 75.2336 8.10938 75.7277 7.42188C76.229 6.72721 76.9058 6.1901 77.758 5.81055C78.6102 5.42383 79.5627 5.23047 80.6154 5.23047C81.6753 5.23047 82.6134 5.42383 83.4298 5.81055C84.2534 6.19727 84.8872 6.72363 85.3312 7.38965C85.7824 8.05566 86.008 8.79688 86.008 9.61328C86.008 10.179 85.8862 10.6947 85.6427 11.1602C85.3992 11.6185 85.0519 11.998 84.6007 12.2988C84.1567 12.5924 83.6447 12.793 83.0646 12.9004V13.0293C84.1961 13.1654 85.0698 13.5557 85.6857 14.2002C86.3016 14.8447 86.6024 15.6576 86.588 16.6387C86.5952 17.5124 86.341 18.3001 85.8253 19.002C85.3169 19.6966 84.6043 20.2409 83.6877 20.6348C82.771 21.0215 81.7326 21.2148 80.5724 21.2148Z"
+              fill="#333333" />
+          </svg>
+
+          <div class="remodeling-process-p">
+            <p>현장 실측과 상담</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="remodeling-process__bottom">
+      <li class="slideinleft">
+        <div>
+          <svg width="140" height="232" viewBox="0 0 140 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_542_25005)">
+              <path
+                d="M86.0826 140.215L20.5315 164.87C19.0298 165.435 18.2681 167.116 18.8302 168.625L32.5473 205.454C33.1093 206.963 34.7823 207.728 36.2839 207.164L101.835 182.508C103.337 181.944 104.098 180.263 103.536 178.753L89.8192 141.924C89.2572 140.415 87.5842 139.65 86.0826 140.215Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M34.2169 174.834L28.8633 176.848L30.2352 180.531L35.5888 178.518L34.2169 174.834Z" fill="white"
+                stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M39.5723 172.816L34.2188 174.83L35.5907 178.514L40.9443 176.5L39.5723 172.816Z" fill="white"
+                stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M30.2383 180.528L32.8775 187.611L43.5891 183.581L40.9498 176.504L35.5941 178.516L30.2383 180.528Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M90.8691 176.73C91.8347 179.324 90.5279 182.222 87.9402 183.192C85.3588 184.162 82.475 182.849 81.5094 180.249C80.5438 177.655 81.8505 174.757 84.4383 173.786C87.0196 172.816 89.9035 174.129 90.8691 176.73Z"
+                stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M96.9902 174.427C97.9558 177.021 96.649 179.919 94.0613 180.889C91.4799 181.86 88.5961 180.546 87.6305 177.946C86.6649 175.352 87.9716 172.454 90.5594 171.484C93.1407 170.513 96.0246 171.826 96.9902 174.427Z"
+                stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M70.2578 136.073L121.035 116.971" stroke="#666666" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M95.5312 136.338L114.772 129.1" stroke="#666666" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M99.7461 145.11L111.996 140.504" stroke="#666666" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+            <path
+              d="M9.75391 9.89258H12.8477C12.8047 7.14258 10.5381 5.23047 7.08984 5.23047C3.68457 5.23047 1.19238 7.11035 1.20312 9.93555C1.20312 12.2129 2.81445 13.5234 5.43555 14.168L7.13281 14.5762C8.83008 14.9951 9.79688 15.4893 9.79688 16.5527C9.79688 17.7129 8.70117 18.5078 7.00391 18.5078C5.28516 18.5078 4.03906 17.7129 3.93164 16.1445H0.794922C0.891602 19.4854 3.28711 21.2256 7.04688 21.2148C10.8389 21.2256 13.0518 19.3994 13.0625 16.5527C13.0518 13.9639 11.0645 12.6104 8.40039 11.998L7.00391 11.6543C5.66113 11.3535 4.50098 10.8486 4.51172 9.7207C4.52246 8.68945 5.43555 7.9375 7.06836 7.9375C8.64746 7.9375 9.625 8.65723 9.75391 9.89258ZM14.4564 8.10938H19.2259V21H22.4271V8.10938H27.1966V5.44531H14.4564V8.10938ZM29.0847 21H39.5476V18.3359H32.3073V14.5547H38.989V11.8906H32.3073V8.10938H39.5261V5.44531H29.0847V21ZM41.9298 21H45.1524V15.9297H47.9454C51.5333 15.9297 53.5958 13.792 53.5958 10.6875C53.5958 7.62598 51.5655 5.44531 48.0313 5.44531H41.9298V21ZM45.1524 13.3301V8.08789H47.4298C49.3419 8.09863 50.2764 9.14062 50.2657 10.6875C50.2764 12.2559 49.3419 13.3301 47.4298 13.3301H45.1524ZM66.4383 21.2148C70.327 21.2148 72.6902 18.3359 72.6902 13.2227C72.6902 8.1416 70.3162 5.23047 66.4383 5.23047C62.5604 5.23047 60.1863 8.1416 60.1863 13.2227C60.1863 18.3145 62.5389 21.2148 66.4383 21.2148ZM63.4949 13.2227C63.4949 9.66699 64.6443 7.88379 66.4383 7.87305C68.2322 7.88379 69.3924 9.66699 69.3816 13.2227C69.3924 16.8105 68.243 18.5508 66.4383 18.5508C64.6336 18.5508 63.4734 16.8105 63.4949 13.2227ZM74.5568 18.25H82.1193V21H85.1916V18.25H87.1681V15.6504H85.1916V5.44531H81.131L74.5568 15.6934V18.25ZM77.8224 15.6504V15.5215L82.0119 8.99023H82.1623V15.6504H77.8224Z"
+              fill="#333333" />
+            <defs>
+              <clipPath id="clip0_542_25005">
+                <rect width="104" height="118" fill="white" transform="translate(18 92)" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <div class="remodeling-process-p">
+            <p>계약금 결제</p>
+          </div>
+        </div>
+      </li>
+      <li class="slideinleft">
+        <div>
+          <svg width="140" height="232" viewBox="0 0 140 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_542_25006)">
+              <path
+                d="M120.922 155.26L105.182 126.84C104.792 126.13 103.902 125.86 103.182 126.23L94.4221 130.73C91.3721 131.61 88.7821 131.17 84.1321 130.38C81.8821 130 79.0922 129.53 75.6322 129.11C64.4422 127.77 55.2122 134.83 50.7722 138.23L50.6922 138.29C48.8922 139.66 43.0822 144.47 43.6122 148.64C43.7522 149.7 44.3522 151.15 46.4522 152.03C51.9122 154.32 56.5622 152.52 62.3022 148.87C64.2922 147.6 66.4922 147.06 68.4222 146.86C68.4222 146.86 95.9521 169.38 96.1021 169.87C96.3021 170.51 107.352 167.9 112.802 161.92C112.882 161.89 112.962 161.86 113.042 161.82L120.402 157.25C121.082 156.83 121.312 155.95 120.922 155.25V155.26Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M102.276 166.481C101.846 164.871 100.816 163.531 99.4263 162.721L69.9363 144.101C70.6963 142.781 71.5463 140.781 71.0563 139.081C70.8463 138.341 70.2963 137.361 68.8963 136.821C67.2363 136.181 64.8463 135.861 61.7963 135.861C60.3263 135.861 59.1863 135.941 58.9063 135.961C50.5863 135.951 42.9963 133.661 41.8263 133.291L34.8763 129.071C34.5263 128.861 34.0963 128.801 33.7063 128.901C33.3063 129.011 32.9763 129.281 32.7763 129.641L19.0763 155.281C18.6963 155.991 18.9463 156.861 19.6263 157.271L25.6563 160.891C31.8963 171.061 42.3063 177.081 42.7463 177.341L77.1763 197.101C78.1263 197.651 79.1963 197.941 80.2863 197.941C82.5063 197.941 84.5763 196.741 85.6963 194.821C86.3963 193.601 86.6563 192.251 86.4963 190.961C88.9463 191.251 91.3963 190.021 92.6263 187.881C93.3563 186.611 93.5863 185.171 93.3763 183.801C95.7163 183.921 97.9563 182.711 99.1263 180.691C100.406 178.461 100.166 175.771 98.7163 173.831C99.9363 173.311 100.986 172.401 101.666 171.221C102.496 169.781 102.716 168.101 102.286 166.491L102.276 166.481Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M43.3629 166.11C45.3629 167.79 45.6329 170.78 43.9429 172.78L39.2329 178.4C37.5529 180.4 34.5629 180.66 32.5629 178.98C30.5629 177.3 30.3029 174.31 31.9829 172.31L36.6929 166.69C38.3729 164.69 41.3629 164.42 43.3629 166.11Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M54.2136 167.921C56.2136 169.601 56.4836 172.591 54.8036 174.591L44.8736 186.431C43.1936 188.431 40.2036 188.701 38.2036 187.011C36.2036 185.331 35.9436 182.341 37.6236 180.341L47.5536 168.501C49.2336 166.501 52.2236 166.231 54.2236 167.921H54.2136Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M60.8167 174.791C62.8167 176.471 63.0867 179.461 61.3967 181.461L53.4167 190.961C51.7368 192.971 48.7467 193.231 46.7467 191.541C44.7467 189.861 44.4768 186.871 46.1668 184.871L54.1467 175.361C55.8267 173.361 58.8167 173.101 60.8167 174.781V174.791Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M66.4469 182.82C68.4469 184.5 68.7169 187.49 67.0269 189.49L62.3169 195.11C60.6369 197.11 57.6469 197.38 55.6469 195.7C53.6469 194.02 53.3769 191.03 55.0569 189.03L59.7669 183.41C61.4469 181.41 64.4369 181.14 66.4369 182.83L66.4469 182.82Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M74.3639 129.03C63.7539 128.35 55.0439 134.98 50.7839 138.24L50.7039 138.3C48.9039 139.67 43.0939 144.48 43.6239 148.65C43.7639 149.71 44.3639 151.16 46.4639 152.04C51.9239 154.33 56.5739 152.53 62.3139 148.88C64.3039 147.61 68.4839 143.95 76.8439 145.66"
+                fill="white" />
+              <path
+                d="M74.3639 129.03C63.7539 128.35 55.0439 134.98 50.7839 138.24L50.7039 138.3C48.9039 139.67 43.0939 144.48 43.6239 148.65C43.7639 149.71 44.3639 151.16 46.4639 152.04C51.9239 154.33 56.5739 152.53 62.3139 148.88C64.3039 147.61 68.4839 143.95 76.8439 145.66"
+                stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M79.9844 162.551L98.7044 173.831" stroke="#666666" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M74.5039 171.91L93.3639 183.8" stroke="#666666" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M70.3633 180.37L86.4833 190.95" stroke="#666666" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+            <path
+              d="M9.75391 9.89258H12.8477C12.8047 7.14258 10.5381 5.23047 7.08984 5.23047C3.68457 5.23047 1.19238 7.11035 1.20312 9.93555C1.20312 12.2129 2.81445 13.5234 5.43555 14.168L7.13281 14.5762C8.83008 14.9951 9.79688 15.4893 9.79688 16.5527C9.79688 17.7129 8.70117 18.5078 7.00391 18.5078C5.28516 18.5078 4.03906 17.7129 3.93164 16.1445H0.794922C0.891602 19.4854 3.28711 21.2256 7.04688 21.2148C10.8389 21.2256 13.0518 19.3994 13.0625 16.5527C13.0518 13.9639 11.0645 12.6104 8.40039 11.998L7.00391 11.6543C5.66113 11.3535 4.50098 10.8486 4.51172 9.7207C4.52246 8.68945 5.43555 7.9375 7.06836 7.9375C8.64746 7.9375 9.625 8.65723 9.75391 9.89258ZM14.4564 8.10938H19.2259V21H22.4271V8.10938H27.1966V5.44531H14.4564V8.10938ZM29.0847 21H39.5476V18.3359H32.3073V14.5547H38.989V11.8906H32.3073V8.10938H39.5261V5.44531H29.0847V21ZM41.9298 21H45.1524V15.9297H47.9454C51.5333 15.9297 53.5958 13.792 53.5958 10.6875C53.5958 7.62598 51.5655 5.44531 48.0313 5.44531H41.9298V21ZM45.1524 13.3301V8.08789H47.4298C49.3419 8.09863 50.2764 9.14062 50.2657 10.6875C50.2764 12.2559 49.3419 13.3301 47.4298 13.3301H45.1524ZM66.4383 21.2148C70.327 21.2148 72.6902 18.3359 72.6902 13.2227C72.6902 8.1416 70.3162 5.23047 66.4383 5.23047C62.5604 5.23047 60.1863 8.1416 60.1863 13.2227C60.1863 18.3145 62.5389 21.2148 66.4383 21.2148ZM63.4949 13.2227C63.4949 9.66699 64.6443 7.88379 66.4383 7.87305C68.2322 7.88379 69.3924 9.66699 69.3816 13.2227C69.3924 16.8105 68.243 18.5508 66.4383 18.5508C64.6336 18.5508 63.4734 16.8105 63.4949 13.2227ZM80.5294 21.2148C84.0314 21.2148 86.4162 18.9697 86.4162 15.8223C86.4162 12.8359 84.2892 10.6982 81.4318 10.709C80.0675 10.6982 78.8859 11.2568 78.3166 12.0195H78.1877L78.6173 8.08789H85.5353V5.44531H75.9533L75.1154 14.4043H78.0373C78.4992 13.5342 79.3156 13.0938 80.4865 13.0938C82.1193 13.1045 83.2902 14.2539 83.2794 15.9082C83.2902 17.5303 82.1408 18.6689 80.5294 18.6582C79.1759 18.6689 78.0695 17.8311 77.9943 16.6172H74.8576C74.9113 19.3027 77.2853 21.2148 80.5294 21.2148Z"
+              fill="#333333" />
+            <defs>
+              <clipPath id="clip0_542_25006">
+                <rect width="104.21" height="73.86" fill="white" transform="translate(17.8945 125.07)" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <div class="remodeling-process-p-2line">
+            <p>견적 확정 및</p>
+            <p>착수금 결제</p>
+          </div>
+        </div>
+      </li>
+      <li class="slideinleft">
+        <div>
+          <svg width="140" height="232" viewBox="0 0 140 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_542_25007)">
+              <path
+                d="M71.7459 198.54C97.9859 198.54 109.466 184.83 109.466 184.83V174.09H32.5859V184.83C32.5859 184.83 44.0659 198.54 70.3059 198.54H71.7459Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M115.055 184.57C115.055 184.57 122.695 129.34 70.7254 129.34H71.3154C19.3554 129.34 24.7154 184.57 24.7154 184.57H115.055Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M70.3449 125.46C73.2949 125.46 74.0549 128.38 74.0249 132.06C73.9549 142.54 73.9349 156.27 70.3449 165.6C66.7549 156.28 66.7349 142.54 66.6649 132.06C66.6349 128.38 67.3949 125.46 70.3449 125.46V125.46Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <path
+              d="M9.75391 9.89258H12.8477C12.8047 7.14258 10.5381 5.23047 7.08984 5.23047C3.68457 5.23047 1.19238 7.11035 1.20312 9.93555C1.20312 12.2129 2.81445 13.5234 5.43555 14.168L7.13281 14.5762C8.83008 14.9951 9.79688 15.4893 9.79688 16.5527C9.79688 17.7129 8.70117 18.5078 7.00391 18.5078C5.28516 18.5078 4.03906 17.7129 3.93164 16.1445H0.794922C0.891602 19.4854 3.28711 21.2256 7.04688 21.2148C10.8389 21.2256 13.0518 19.3994 13.0625 16.5527C13.0518 13.9639 11.0645 12.6104 8.40039 11.998L7.00391 11.6543C5.66113 11.3535 4.50098 10.8486 4.51172 9.7207C4.52246 8.68945 5.43555 7.9375 7.06836 7.9375C8.64746 7.9375 9.625 8.65723 9.75391 9.89258ZM14.4564 8.10938H19.2259V21H22.4271V8.10938H27.1966V5.44531H14.4564V8.10938ZM29.0847 21H39.5476V18.3359H32.3073V14.5547H38.989V11.8906H32.3073V8.10938H39.5261V5.44531H29.0847V21ZM41.9298 21H45.1524V15.9297H47.9454C51.5333 15.9297 53.5958 13.792 53.5958 10.6875C53.5958 7.62598 51.5655 5.44531 48.0313 5.44531H41.9298V21ZM45.1524 13.3301V8.08789H47.4298C49.3419 8.09863 50.2764 9.14062 50.2657 10.6875C50.2764 12.2559 49.3419 13.3301 47.4298 13.3301H45.1524ZM66.4383 21.2148C70.327 21.2148 72.6902 18.3359 72.6902 13.2227C72.6902 8.1416 70.3162 5.23047 66.4383 5.23047C62.5604 5.23047 60.1863 8.1416 60.1863 13.2227C60.1863 18.3145 62.5389 21.2148 66.4383 21.2148ZM63.4949 13.2227C63.4949 9.66699 64.6443 7.88379 66.4383 7.87305C68.2322 7.88379 69.3924 9.66699 69.3816 13.2227C69.3924 16.8105 68.243 18.5508 66.4383 18.5508C64.6336 18.5508 63.4734 16.8105 63.4949 13.2227ZM80.8302 21.2148C84.3429 21.2256 86.7277 18.959 86.7169 15.8008C86.7277 12.8682 84.6437 10.7734 81.84 10.7734C80.1212 10.7734 78.5851 11.5791 77.8654 12.9648H77.715C77.7365 9.90332 78.8429 8.00195 80.9591 8.00195C82.216 8.00195 83.1076 8.67871 83.3654 9.76367H86.5451C86.2336 7.20703 84.0851 5.23047 80.9591 5.23047C77.0705 5.23047 74.5675 8.33496 74.5568 13.5879C74.5461 19.2812 77.6183 21.2041 80.8302 21.2148ZM78.0373 15.8867C78.0587 14.3721 79.2619 13.126 80.8517 13.1152C82.4308 13.126 83.5802 14.3291 83.5802 15.8867C83.5802 17.4551 82.4093 18.6689 80.8087 18.6582C79.2189 18.6689 78.0587 17.4121 78.0373 15.8867Z"
+              fill="#333333" />
+            <defs>
+              <clipPath id="clip0_542_25007">
+                <rect width="92.89" height="75.08" fill="white" transform="translate(23.5547 124.46)" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <div class="remodeling-process-p-2line">
+            <p>마스터 책임</p>
+            <p>관리하에 시공 진행</p>
+          </div>
+        </div>
+      </li>
+      <li class="remodel-pro__last slideinleft">
+        <div>
+
+          <svg width="140" height="232" viewBox="0 0 140 232" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_542_25008)">
+              <path d="M95.6822 137.6H44.2422V190.46H103.882C103.882 190.46 112.202 190.77 112.202 182.14"
+                fill="white" />
+              <path d="M95.6822 137.6H44.2422V190.46H103.882C103.882 190.46 112.202 190.77 112.202 182.14"
+                stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M112.092 182.46C112.092 177.02 107.682 172.61 102.242 172.61H95.6719V121.47H102.242C107.682 121.47 112.092 125.88 112.092 131.32V182.46V182.46Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M55.2812 163.7L71.7513 147.22L88.4712 163.93" fill="white" />
+              <path d="M55.2812 163.7L71.7513 147.22L88.4712 163.93" stroke="#666666" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M59.293 159.68V174.95H68.133V162.89H75.383V174.95H84.223V159.68L71.753 147.22L59.293 159.68Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M53.989 177.47C52.929 177.15 47.979 175.34 43.699 173.75C43.019 173.5 42.319 173.37 41.599 173.37C40.879 173.37 40.169 173.5 39.499 173.75C35.219 175.34 30.269 177.15 29.209 177.47C28.319 177.74 27.749 178.57 27.809 179.5C27.829 179.79 27.849 180.06 27.869 180.23C28.849 189.63 33.379 197.21 40.959 202.16C40.959 202.16 41.019 202.21 41.069 202.23L41.589 202.53L42.109 202.23C42.109 202.23 42.189 202.18 42.219 202.16C49.809 197.21 54.339 189.62 55.319 180.22C55.339 180.05 55.359 179.78 55.379 179.49C55.449 178.56 54.869 177.73 53.979 177.46L53.989 177.47Z"
+                fill="white" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M47.7802 185.031H43.2502V180.521H39.8802V185.051H35.4102V188.391H39.9302V192.871H43.2702V188.341H47.7802V185.031Z"
+                fill="#666666" />
+            </g>
+            <path
+              d="M9.75391 9.89258H12.8477C12.8047 7.14258 10.5381 5.23047 7.08984 5.23047C3.68457 5.23047 1.19238 7.11035 1.20312 9.93555C1.20312 12.2129 2.81445 13.5234 5.43555 14.168L7.13281 14.5762C8.83008 14.9951 9.79688 15.4893 9.79688 16.5527C9.79688 17.7129 8.70117 18.5078 7.00391 18.5078C5.28516 18.5078 4.03906 17.7129 3.93164 16.1445H0.794922C0.891602 19.4854 3.28711 21.2256 7.04688 21.2148C10.8389 21.2256 13.0518 19.3994 13.0625 16.5527C13.0518 13.9639 11.0645 12.6104 8.40039 11.998L7.00391 11.6543C5.66113 11.3535 4.50098 10.8486 4.51172 9.7207C4.52246 8.68945 5.43555 7.9375 7.06836 7.9375C8.64746 7.9375 9.625 8.65723 9.75391 9.89258ZM14.4564 8.10938H19.2259V21H22.4271V8.10938H27.1966V5.44531H14.4564V8.10938ZM29.0847 21H39.5476V18.3359H32.3073V14.5547H38.989V11.8906H32.3073V8.10938H39.5261V5.44531H29.0847V21ZM41.9298 21H45.1524V15.9297H47.9454C51.5333 15.9297 53.5958 13.792 53.5958 10.6875C53.5958 7.62598 51.5655 5.44531 48.0313 5.44531H41.9298V21ZM45.1524 13.3301V8.08789H47.4298C49.3419 8.09863 50.2764 9.14062 50.2657 10.6875C50.2764 12.2559 49.3419 13.3301 47.4298 13.3301H45.1524ZM66.4383 21.2148C70.327 21.2148 72.6902 18.3359 72.6902 13.2227C72.6902 8.1416 70.3162 5.23047 66.4383 5.23047C62.5604 5.23047 60.1863 8.1416 60.1863 13.2227C60.1863 18.3145 62.5389 21.2148 66.4383 21.2148ZM63.4949 13.2227C63.4949 9.66699 64.6443 7.88379 66.4383 7.87305C68.2322 7.88379 69.3924 9.66699 69.3816 13.2227C69.3924 16.8105 68.243 18.5508 66.4383 18.5508C64.6336 18.5508 63.4734 16.8105 63.4949 13.2227ZM74.9865 21H78.338L84.8908 8.13086V5.44531H73.9123V8.08789H81.5392V8.19531L74.9865 21Z"
+              fill="#333333" />
+            <defs>
+              <clipPath id="clip0_542_25008">
+                <rect width="86.4" height="83.06" fill="white" transform="translate(26.8008 120.47)" />
+              </clipPath>
+            </defs>
+          </svg>
+
+          <div class="remodeling-process-p-2line">
+            <p>시공완료 후 잔금결제</p>
+            <p>하자이행보증보험 발급</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <ul class="footer-top">
+      <li>NOTICE</li>
+      <li class="footer-top__ctr"><a href="#">
+          <span>more</span>
+        </a>
+      </li>
+      <li>고객센터</li>
+    </ul>
+    <ul class="footer-bottom">
+      <li class="border">
+        <a href="#">
+          <p>한솔이 만든 인테리어 VHOM이 리뉴얼 오픈하였습니다.</p>
+        </a>
+        <p class="date">2023-01-05</p>
+      </li>
+      <li>
+        <a href="#">
+          <p>한솔이 만든 인테리어 VHOM이 리뉴얼 오픈하였습니다.</p>
+        </a>
+        <p class="date">2023-01-05</p>
+      </li>
+      <li class="footer-last-box">
+        <h1>1666-0949</h1>
+        <p class="date">평일 9:00 ~ 18:00 주말, 공휴일 휴무</p>
+      </li>
+    </ul>
+
+  </footer>
+</body>
+
+</html>
